@@ -9,4 +9,4 @@ from mailer.models import Company
 class IndexView(ListView):
     template_name = "mailer/index.html"
     model = Company
-    paginate_by = 100
+    paginate_by = 10
